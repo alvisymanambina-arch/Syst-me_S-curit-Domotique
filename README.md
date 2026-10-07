@@ -101,9 +101,3 @@ Au démarrage, le PIC envoie `SYSTEME_PRET` sur le Bluetooth.
 - Le code d'appairage par défaut d'un HC-05/HC-06 est souvent `1234` ou `0000`.
 - Pour les tests, l'application **Serial Bluetooth Terminal** peut être utilisée pour envoyer les commandes directement.
 - Les modules HC-05/HC-06 utilisent le Bluetooth classique ; ils ne sont généralement pas compatibles directement avec les applications BLE sur iPhone.
-
-## Équipe
-
-- Nestor
-- Fitahina
-- Mickael
