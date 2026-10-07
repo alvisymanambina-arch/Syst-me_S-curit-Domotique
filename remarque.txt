@@ -1,0 +1,31 @@
+1
+
+N'oubliez pas le module Bluetooth.
+Le microcontrôleur PIC utilise un module Bluetooth tel que le HC-05 ou le HC-06, connecté aux broches C6 (TX) et C7 (RX). Notez que le module peut porter le nom « HC-05 », « HC-06 » ou un autre nom, suivi du numéro de port de votre téléphone. Chargez le PIC (démarrez) pour rendre le module « détectable ».
+
+2
+Téléchargez l'application Terminal Bluetooth.
+
+Sur un téléphone Android, téléchargez l'application « Serial Bluetooth Terminal » (ou « Bluetooth Terminal HC-05 », ou une application similaire) depuis le Play Store. Sur un iPhone, vous avez besoin d'une application spécifique comme « BLE Terminal », mais celle-ci peut ne pas se connecter au Bluetooth classique du HC-05 (ce module ne se connecte généralement pas à l'iPhone sans BLE).
+
+3
+Appairez le module avec votre téléphone.
+
+Dans les paramètres Bluetooth de votre téléphone, recherchez le module (nommé par exemple « HC-05 ») et appairez-le (si un code est demandé, généralement « 1234 » ou « 0000 »). Vous ne devez utiliser aucun autre appareil que celui utilisé pour cet appairage, qui n'est à effectuer qu'une seule fois.
+
+4
+Ouvrez l'application Terminal et connectez-vous.
+Ouvrez l'application « Serial Bluetooth Terminal » (ou une application similaire), puis sélectionnez le module HC-05/HC-06 dans la liste des appareils appariés. Une fois la connexion établie, un texte tel que « SYSTEME_PRET » devrait s'afficher sur le PIC (il s'agit de la réponse envoyée par le PIC au démarrage).
+
+5
+Saisissez la commande dans le champ « Envoyer ».
+
+Dans le champ de saisie (généralement en bas), saisissez sans erreur : SETDATE=2608231415001. N'ajoutez ni espaces ni tirets.
+
+6
+Envoyez la commande avec le bouton « Envoyer ».
+
+Appuyez sur le bouton d'envoi (généralement une touche comme « ⏎ » ou « Envoyer »). Important : il est essentiel que l’application envoie un saut de ligne (\n) après le texte. La plupart des applications de terminal le font automatiquement lorsque vous appuyez sur le bouton Envoyer/Entrée, car dans le code, la commande est acceptée dès qu’un saut de ligne (\n) ou un retour à la ligne (\r) est rencontré.
+
+7. Afficher le résultat
+Si la transmission et le format sont corrects, le message DATE_OK s’affiche dans l’application. En cas d’erreur de format ou de valeur, le message DATE_ERR_FORMAT ou DATE_ERR_RANGE s’affiche.

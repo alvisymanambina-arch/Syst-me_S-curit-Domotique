@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Shield Shadow -->
+    <path
+        android:fillColor="#22000000"
+        android:pathData="M54,20L28,30v24c0,16 11,31 26,35 15,-4 26,-19 26,-35V30L54,20z" />
+
+    <!-- Main Shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,18L26,28v24c0,17 12,33 28,37 16,-4 28,-20 28,-37V28L54,18z" />
+
+    <!-- Lock Body -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M42,50h24v14h-24z" />
+
+    <!-- Lock Shackle -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M46,50v-4c0,-4.4 3.6,-8 8,-8s8,3.6 8,8v4h-4v-4c0,-2.2 -1.8,-4 -4,-4s-4,1.8 -4,4v4h-4z" />
+
+</vector>

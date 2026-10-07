@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Theme Colors (Darker/Saturated) -->
+    <color name="colorPrimary">#7986CB</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FDD835</color>
+
+    <!-- Semantic Colors (Dark Theme) -->
+    <color name="bg_surface">#121212</color>
+    <color name="card_surface">#1E1E1E</color>
+    <color name="text_primary">#E8EAED</color>
+    <color name="text_secondary">#9AA0A6</color>
+    <color name="divider">#3C4043</color>
+    <color name="icon_inactive">#5F6368</color>
+
+    <!-- State Colors (Dark Theme - Toned down) -->
+    <color name="salon_on_bg">#33FBBC04</color>
+    <color name="salon_on_stroke">#FBBC04</color>
+    <color name="cour_motion_bg">#33EA4335</color>
+    <color name="cour_manual_bg">#33FBBC04</color>
+    <color name="toilette_on_bg">#33FBBC04</color>
+</resources>

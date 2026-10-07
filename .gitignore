@@ -1,0 +1,22 @@
+# Android / Gradle local and generated files
+.gradle/
+.idea/
+**/build/
+**/local.properties
+*.iml
+
+# PIC compiler outputs and local history
+systeme_securite_PIC/__history/
+systeme_securite_PIC/*.cof
+systeme_securite_PIC/*.err
+systeme_securite_PIC/*.esym
+systeme_securite_PIC/*.hex
+systeme_securite_PIC/*.lst
+systeme_securite_PIC/*.STA
+systeme_securite_PIC/*.sym
+systeme_securite_PIC/*.tre
+systeme_securite_PIC/*.xsym
+
+# Operating-system files
+Thumbs.db
+.DS_Store
